@@ -1,0 +1,18 @@
+1. add user data (post) = localhost:4000/api/user/login
+
+example:
+{
+  "email": "thilaknanu101@gmail.com",
+  "password": "12345"
+}
+
+verify account 
+
+2. password reset (post) = localhost:4000/api/user/passwordReset
+
+example: 
+{
+  "email": "thilaknanu101@gmail.com",
+  "password": "oldPassword",
+  "changedPassword": "newPassword"
+}
